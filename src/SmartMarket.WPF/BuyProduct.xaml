@@ -1,0 +1,45 @@
+﻿<Window x:Class="SmartMarket.WPF.BuyProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartMarket.WPF"
+        mc:Ignorable="d"
+        Title="BuyProduct" Height="450" Width="800">
+    <Grid Background="Aquamarine">
+        <Label Content="Search Product"
+               HorizontalAlignment="Center"
+               FontSize="32"
+               FontWeight="Black"
+               Margin="0,26,0,308"
+               RenderTransformOrigin="0.501,0.493"/>
+
+     
+        <StackPanel Width="200" Margin="300,99,300,17">
+
+            <TextBox Width="150"
+                 Height="30"
+                 FontWeight="Black"
+                 BorderBrush="Black"
+                 BorderThickness="2">
+            </TextBox>
+            <Label/>
+            <Label/>
+            <Button Width="120"
+                Height="30"
+                BorderBrush="Black"
+                BorderThickness="2"
+                FontWeight="Black" Content="Search by Code"/>
+            <Label/>
+            <Label/>
+            <Button Width="120"
+            Height="30"
+            BorderBrush="Black"
+            BorderThickness="2"
+            FontWeight="Black"
+            Content="Search by Name"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
